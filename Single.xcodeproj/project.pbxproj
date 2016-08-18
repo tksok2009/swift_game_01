@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		841C46B81D65F16F001375E9 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C46B71D65F16F001375E9 /* FinalViewController.swift */; };
 		841C46BA1D6600FE001375E9 /* png in Resources */ = {isa = PBXBuildFile; fileRef = 841C46B91D6600FE001375E9 /* png */; };
+		841C46BC1D660404001375E9 /* PlaycardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C46BB1D660404001375E9 /* PlaycardHelper.swift */; };
 		84C39C741D64E40D006B51C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C39C731D64E40D006B51C1 /* AppDelegate.swift */; };
 		84C39C761D64E40D006B51C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C39C751D64E40D006B51C1 /* ViewController.swift */; };
 		84C39C791D64E40D006B51C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C39C771D64E40D006B51C1 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		841C46B71D65F16F001375E9 /* FinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 		841C46B91D6600FE001375E9 /* png */ = {isa = PBXFileReference; lastKnownFileType = folder; name = png; path = ../../../../Downloads/trump/png; sourceTree = "<group>"; };
+		841C46BB1D660404001375E9 /* PlaycardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaycardHelper.swift; sourceTree = "<group>"; };
 		84C39C701D64E40D006B51C1 /* Single.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Single.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C39C731D64E40D006B51C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C39C751D64E40D006B51C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				84C39C751D64E40D006B51C1 /* ViewController.swift */,
 				84C39CA41D64E488006B51C1 /* SecondViewController.swift */,
 				841C46B71D65F16F001375E9 /* FinalViewController.swift */,
+				841C46BB1D660404001375E9 /* PlaycardHelper.swift */,
 				84C39C771D64E40D006B51C1 /* Main.storyboard */,
 				84C39C7D1D64E40D006B51C1 /* Assets.xcassets */,
 				84C39C7F1D64E40D006B51C1 /* LaunchScreen.storyboard */,
@@ -274,6 +277,7 @@
 			files = (
 				84C39CA51D64E488006B51C1 /* SecondViewController.swift in Sources */,
 				841C46B81D65F16F001375E9 /* FinalViewController.swift in Sources */,
+				841C46BC1D660404001375E9 /* PlaycardHelper.swift in Sources */,
 				84C39C7C1D64E40D006B51C1 /* Single.xcdatamodeld in Sources */,
 				84C39C761D64E40D006B51C1 /* ViewController.swift in Sources */,
 				84C39C741D64E40D006B51C1 /* AppDelegate.swift in Sources */,

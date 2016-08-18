@@ -25,11 +25,7 @@ class ViewController: UIViewController {
     
     @IBAction func NextButton(sender: AnyObject) {
         
-        // 遷移するViewを定義する.
-        //let mySecondViewController: UIViewController = SecondViewController()
-
-        //let mySecondViewController = UIStoryboard(name: "Storyboardのファイル名", bundle: nil).instantiateInitialViewController() as UIViewController
-        
+     
         let mySecondViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("SecondViewController") as UIViewController
         
 
