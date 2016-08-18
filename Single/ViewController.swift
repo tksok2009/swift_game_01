@@ -20,6 +20,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    
+    
     @IBAction func NextButton(sender: AnyObject) {
         
         // 遷移するViewを定義する.
@@ -29,11 +32,9 @@ class ViewController: UIViewController {
         
         let mySecondViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("SecondViewController") as UIViewController
         
-        // アニメーションを設定する.
-        mySecondViewController.modalTransitionStyle = UIModalTransitionStyle.PartialCurl
-        
+
         // Viewの移動する.
-        self.presentViewController(mySecondViewController, animated: true, completion: nil)
+        self.presentViewController(mySecondViewController, animated: false, completion: nil)
         
         
         
