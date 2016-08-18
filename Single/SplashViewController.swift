@@ -21,7 +21,7 @@ class SplashViewController: UIViewController {
         let mySecondViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("ViewController") as UIViewController
 
         // 5秒待つ
-        sleep(5)
+        sleep(1)
         
         // Viewの移動する.
         self.presentViewController(mySecondViewController, animated: false, completion: nil)

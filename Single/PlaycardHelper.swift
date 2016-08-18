@@ -14,7 +14,7 @@ class Playcard{
     
     var myImageView: UIImageView
 
-    init(){
+    init(des ss: Double){
         // UIImageViewを作成する.
         self.myImageView = UIImageView(frame: CGRectMake(0,0,50,70))
 
@@ -25,16 +25,15 @@ class Playcard{
         self.myImageView.image = myImage
         
         // 画像の表示する座標を指定する.
-        self.myImageView.layer.position = CGPoint(x: 200, y: 200.0)
+        let xxx = Double(200 + ss)
+        self.myImageView.layer.position = CGPoint(x: xxx, y: 200.0)
 
         self.myImageView.userInteractionEnabled = true
         self.myImageView.tag = 1
         
-        
-        
+
     
-    }
-    
+    }    
     
 }
 

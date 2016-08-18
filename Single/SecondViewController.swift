@@ -16,31 +16,41 @@ class SecondViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         
-     let playcard = Playcard()
+        let playcard = Playcard(des:0.9)
+        let playcard2 = Playcard(des:100.0)
+        let playcard3 = Playcard(des:200.0)
 
         
     
         // UIImageViewをViewに追加する.
         self.view.addSubview(playcard.myImageView)
+        self.view.addSubview(playcard2.myImageView)
+        self.view.addSubview(playcard3.myImageView)
+        
 
         
     }
     
 
-    
+ 
     override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
         super.touchesEnded(touches, withEvent: event)
+        
+
         for touch: UITouch in touches {
             let tag = touch.view!.tag
             switch tag {
-            case 1:
+            case 1: // これひとつで対応できる
                 print("tapped")
+                touch.view?.removeFromSuperview()
             default:
                 break
             }
         }
+
+        
     }
-    
+
     
     
     
