@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		841C46B81D65F16F001375E9 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C46B71D65F16F001375E9 /* FinalViewController.swift */; };
+		841C46BA1D6600FE001375E9 /* png in Resources */ = {isa = PBXBuildFile; fileRef = 841C46B91D6600FE001375E9 /* png */; };
 		84C39C741D64E40D006B51C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C39C731D64E40D006B51C1 /* AppDelegate.swift */; };
 		84C39C761D64E40D006B51C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C39C751D64E40D006B51C1 /* ViewController.swift */; };
 		84C39C791D64E40D006B51C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C39C771D64E40D006B51C1 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		841C46B71D65F16F001375E9 /* FinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		841C46B91D6600FE001375E9 /* png */ = {isa = PBXFileReference; lastKnownFileType = folder; name = png; path = ../../../../Downloads/trump/png; sourceTree = "<group>"; };
 		84C39C701D64E40D006B51C1 /* Single.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Single.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C39C731D64E40D006B51C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C39C751D64E40D006B51C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		84C39C721D64E40D006B51C1 /* Single */ = {
 			isa = PBXGroup;
 			children = (
+				841C46B91D6600FE001375E9 /* png */,
 				84C39C731D64E40D006B51C1 /* AppDelegate.swift */,
 				84C39CA61D65EB29006B51C1 /* SplashViewController.swift */,
 				84C39C751D64E40D006B51C1 /* ViewController.swift */,
@@ -241,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841C46BA1D6600FE001375E9 /* png in Resources */,
 				84C39C811D64E40D006B51C1 /* LaunchScreen.storyboard in Resources */,
 				84C39C7E1D64E40D006B51C1 /* Assets.xcassets in Resources */,
 				84C39C791D64E40D006B51C1 /* Main.storyboard in Resources */,
