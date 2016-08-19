@@ -16,17 +16,13 @@ class SecondViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         
-        let playcard = Playcard(des:0.9)
-        let playcard2 = Playcard(des:100.0)
-        let playcard3 = Playcard(des:200.0)
-
+        let playcard = Playcard(Xx:10.9,Yy:10.0,name:"c01")
+        let playcard2 = Playcard(Xx:40.9,Yy:50.0,name:"c02")
         
     
         // UIImageViewをViewに追加する.
         self.view.addSubview(playcard.myImageView)
         self.view.addSubview(playcard2.myImageView)
-        self.view.addSubview(playcard3.myImageView)
-        
 
         
     }
@@ -41,8 +37,8 @@ class SecondViewController: UIViewController {
             let tag = touch.view!.tag
             switch tag {
             case 1: // これひとつで対応できる
-                print("tapped")
-                touch.view?.removeFromSuperview()
+                print(touch.view?.accessibilityLabel)
+                //touch.view?.removeFromSuperview()
             default:
                 break
             }

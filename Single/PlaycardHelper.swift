@@ -13,26 +13,25 @@ import UIKit
 class Playcard{
     
     var myImageView: UIImageView
-
-    init(des ss: Double){
+  
+    init(Xx: Double,Yy: Double,name : String){
         // UIImageViewを作成する.
         self.myImageView = UIImageView(frame: CGRectMake(0,0,50,70))
 
         // 表示する画像を設定する.
-        let myImage = UIImage(named: "png/c01.png")
+        let myImage = UIImage(named: "png/" + name + ".png")
 
         // 画像をUIImageViewに設定する.
         self.myImageView.image = myImage
         
         // 画像の表示する座標を指定する.
-        let xxx = Double(200 + ss)
-        self.myImageView.layer.position = CGPoint(x: xxx, y: 200.0)
+        self.myImageView.layer.position = CGPoint(x: Xx, y: Yy)
 
         self.myImageView.userInteractionEnabled = true
         self.myImageView.tag = 1
         
-
-    
+        self.myImageView.accessibilityLabel = name
+        
     }    
     
 }
